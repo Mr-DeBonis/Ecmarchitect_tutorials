@@ -1,0 +1,8 @@
+# Don't upload these folders to github
+content-tutorial
+tutorial
+tutorial-share2
+Documentacion
+2_Custom_Content_Types_virgen
+2_Custom_Content_Types_Backup
+alfresco-developer-series
