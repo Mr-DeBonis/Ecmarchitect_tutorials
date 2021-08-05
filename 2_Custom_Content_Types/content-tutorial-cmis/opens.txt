@@ -1,0 +1,83 @@
+12968 +++ exited with 0 +++
+12967 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12968, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12969 +++ exited with 0 +++
+12967 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12969, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12970 +++ exited with 0 +++
+12967 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12970, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12971 +++ exited with 0 +++
+12967 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12971, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12972 +++ exited with 0 +++
+12967 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12972, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12977 +++ exited with 0 +++
+12976 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12977, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12976 +++ exited with 0 +++
+12975 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12976, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12975 +++ exited with 0 +++
+12974 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12975, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12978 +++ exited with 0 +++
+12974 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12978, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12979 +++ exited with 0 +++
+12974 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12979, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12980 +++ exited with 0 +++
+12974 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12980, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12981 +++ exited with 0 +++
+12974 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12981, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12982 +++ exited with 0 +++
+12974 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12982, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12974 +++ exited with 0 +++
+12973 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12974, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12973 +++ exited with 0 +++
+12967 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12973, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12983 +++ exited with 0 +++
+12967 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12983, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f1680968008} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=NULL} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x8} ---
+12984 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x8} ---
+13011 +++ exited with 0 +++
+13010 +++ exited with 0 +++
+12998 +++ exited with 0 +++
+12989 +++ exited with 0 +++
+12988 +++ exited with 0 +++
+12986 +++ exited with 0 +++
+12993 +++ exited with 0 +++
+13007 +++ exited with 1 +++
+13005 +++ exited with 1 +++
+13008 +++ exited with 1 +++
+13006 +++ exited with 1 +++
+13004 +++ exited with 1 +++
+13000 +++ exited with 1 +++
+12999 +++ exited with 1 +++
+12997 +++ exited with 1 +++
+12996 +++ exited with 1 +++
+12995 +++ exited with 1 +++
+12994 +++ exited with 1 +++
+12992 +++ exited with 1 +++
+12990 +++ exited with 1 +++
+12985 +++ exited with 1 +++
+12984 +++ exited with 1 +++
+12991 +++ exited with 1 +++
+12987 +++ exited with 1 +++
+12967 +++ exited with 1 +++

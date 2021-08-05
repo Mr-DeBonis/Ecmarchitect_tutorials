@@ -1,0 +1,6 @@
+com/someco/cmis/examples/SomeCoCMISDataQueries.class
+com/someco/cmis/examples/SomeCoCMISDataCleaner.class
+com/someco/cmis/examples/SomeCoCMISDataCreator.class
+com/someco/cmis/examples/SomeCoCMISDataRelater.class
+com/someco/cmis/examples/CMISExampleBase.class
+com/someco/examples/ExampleBase.class
