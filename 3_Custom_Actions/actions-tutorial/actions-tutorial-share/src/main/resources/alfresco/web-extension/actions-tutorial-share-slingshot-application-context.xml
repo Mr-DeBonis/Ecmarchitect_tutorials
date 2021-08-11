@@ -13,12 +13,11 @@
             placed in the alfresco-allinone/share/src/main/resources/alfresco/web-extension/custom-slingshot-application-context.xml file
    -->
 
-   <!-- Add module specific messages and labels -->
-   <bean id="com.someco.actions-tutorial-share.resources"
-         class="org.springframework.extensions.surf.util.ResourceBundleBootstrapComponent">
+   <!-- Add Someco messages -->
+   <bean id="${project.artifactId}_resources" class="org.springframework.extensions.surf.util.ResourceBundleBootstrapComponent">
       <property name="resourceBundles">
          <list>
-            <value>alfresco.web-extension.messages.actions-tutorial-share</value>
+               <value>alfresco.web-extension.messages.scActions</value>
          </list>
       </property>
    </bean>
