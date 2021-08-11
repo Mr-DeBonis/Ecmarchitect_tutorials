@@ -35,4 +35,15 @@
         </property>
     </bean>
 
+    <bean id="enable-web-flag" class="com.someco.action.executer.EnableWebFlag" parent="set-web-flag">
+        <property name="publicAction">
+            <value>false</value>
+        </property>
+    </bean>
+
+    <bean id="disable-web-flag" class="com.someco.action.executer.DisableWebFlag" parent="set-web-flag">
+        <property name="publicAction">
+            <value>false</value>
+        </property>
+    </bean>
 </beans>

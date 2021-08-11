@@ -645,5 +645,46 @@
         </forms>
     </config>
 
+    <!-- Actions -->
+    <config evaluator="string-compare" condition="DocLibActions">
+        <actions>
+            <action id="someco-web-site" type="link" label="actions.someco.web-site" icon="someco-website">
+                <param name="href">https://dimacofi.cl</param>
+                <param name="target">_blank</param>
+            </action>
+            <action id="someco-web-enable" type="javascript" label="actions.someco.web-enable" icon="someco-create-website">
+                <param name="function">onActionSimpleRepoAction</param>
+                <permissions>
+                    <permission allow="true">Write</permission>
+                </permissions>
+                <param name="action">enable-web-flag</param>
+                <param name="successMessage">message.web-flag.enabled</param>
+                <param name="failureMessage">message.web-flag.failure</param>
+                <evaluator>someco.evaluator.doclib.action.isActive</evaluator>
+            </action>
+            <action id="someco-web-disable" type="javascript" label="actions.someco.web-disable" icon="someco-delete-website">
+                <param name="function">onActionSimpleRepoAction</param>
+                <permissions>
+                    <permission allow="true">Write</permission>
+                </permissions>
+                <param name="action">disable-web-flag</param>
+                <param name="successMessage">message.web-flag.disabled</param>
+                <param name="failureMessage">message.web-flag.failure</param>
+                <evaluator>someco.evaluator.doclib.action.isActive</evaluator>
+            </action>
+        </actions>
+        <actionGroups>
+            <actionGroup id="document-browse">
+                <action index="500" id="someco-web-site" />
+                <action index="510" id="someco-web-enable" />
+                <action index="520" id="someco-web-disable" />                
+            </actionGroup>
+            <actionGroup id="document-details">
+                <action index="500" id="someco-web-site" />
+                <action index="510" id="someco-web-enable" />
+                <action index="520" id="someco-web-disable" />                
+            </actionGroup>
+        </actionGroups>
+    </config>
 
 </alfresco-config>
