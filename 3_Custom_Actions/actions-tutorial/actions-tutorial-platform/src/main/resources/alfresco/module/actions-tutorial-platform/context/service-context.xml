@@ -29,4 +29,10 @@
         </property>
     </bean>
 
+    <bean id="set-web-flag" class="com.someco.action.executer.SetWebFlag" parent="action-executer">
+        <property name="nodeService">
+            <ref bean="NodeService" />
+        </property>
+    </bean>
+
 </beans>
