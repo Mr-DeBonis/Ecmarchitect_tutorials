@@ -33,6 +33,13 @@
                 <subtype name="acme:document"/>
             </type>
         </types>
+
+        <!-- Custom Indicators -->
+        <indicators>
+            <indicator id="someco-website" index="10">
+                <evaluator>someco.evaluator.doclib.action.isActive</evaluator>
+            </indicator>
+        </indicators>
     </config>
 
     <!--================================================================================================================
@@ -660,7 +667,7 @@
                 <param name="action">enable-web-flag</param>
                 <param name="successMessage">message.web-flag.enabled</param>
                 <param name="failureMessage">message.web-flag.failure</param>
-                <evaluator>someco.evaluator.doclib.action.isActive</evaluator>
+                <evaluator negate="true">someco.evaluator.doclib.action.isActive</evaluator>
             </action>
             <action id="someco-web-disable" type="javascript" label="actions.someco.web-disable" icon="someco-delete-website">
                 <param name="function">onActionSimpleRepoAction</param>
