@@ -21,6 +21,7 @@
             <groupId>com.someco</groupId>
             <artifactId>actions-tutorial-platform</artifactId>
             <version>1.0-SNAPSHOT</version>
+            <type>amp</type>
         </dependency>
         <dependency>
             <groupId>com.someco</groupId>
@@ -41,6 +42,12 @@
                 </exclusions>
              to each amp dependency definition.
          -->
+        <dependency>
+            <groupId>com.someco</groupId>
+            <artifactId>content-tutorial-platform</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>amp</type>            
+        </dependency>
     </dependencies>
 
     <build>
