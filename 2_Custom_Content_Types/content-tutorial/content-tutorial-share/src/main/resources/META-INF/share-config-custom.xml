@@ -6,8 +6,7 @@
             <!-- Aspects that a user can see -->
             <visible>
                 <aspect name="sc:webable" />
-                <aspect name="sc:productRelated" />   
-                <aspect name="cm:replaceable" />         
+                <aspect name="sc:productRelated" />            
             </visible>
 
             <!-- Aspects that a user can add. Same as "visible" if left empty -->
@@ -144,9 +143,6 @@
                     <show id="surf:widgetType"/>
                     <show id="surf:mid"/>
                     <show id="surf:label"/>
-
-                    <!-- cm:replaceable -->
-                    <show id="cm:replaces" />
                     
                     <!-- sc:doc -->
                     <show id="sc:relatedDocuments" />
@@ -199,8 +195,6 @@
                     <field id="cm:sentdate" read-only="true" />
                     <field id="cm:subjectline" read-only="true" />
 
-                    <field id="cm:replaces" label-id="assoc.cm_replaces"/>
-                    
                     <field id="sc:relatedDocuments" label-id="assoc.sc_relatedDocuments" />
                 </appearance>
             </form>
