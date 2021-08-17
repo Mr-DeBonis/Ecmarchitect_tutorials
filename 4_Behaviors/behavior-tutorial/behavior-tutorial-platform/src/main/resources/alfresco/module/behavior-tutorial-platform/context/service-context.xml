@@ -20,7 +20,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <!-- Rating behavior bean from the tutorial -->
+    <!-- Rating behavior bean from the tutorial (Java) -->
+    
     <bean id="ratingBehavior" class="com.someco.behavior.Rating" init-method="init">
         <property name="nodeService">
             <ref bean="NodeService" />
@@ -29,5 +30,49 @@
             <ref bean="policyComponent" />
         </property>
     </bean>
+    
+
+    <!-- Rating behavior bean from the tutorial (JavaScript) -->
+<!--
+      <bean id="onCreateRatingNode" class="org.alfresco.repo.policy.registration.ClassPolicyRegistration" parent="policyRegistration">
+        <property name="policyName">
+            <value>{http://www.alfresco.org}onCreateNode</value>
+        </property>
+        <property name="className">
+            <value>{http://www.someco.com/model/ratings/1.0}rating</value>
+        </property>
+        <property name="behaviour">
+           <bean class="org.alfresco.repo.jscript.ScriptBehaviour" parent="scriptBehaviour">
+                        <property name="location">
+                                <bean class="org.alfresco.repo.jscript.ClasspathScriptLocation">
+                                <constructor-arg>
+	                                <value>alfresco/module/${project.artifactId}/scripts/onCreateRating.js</value>
+								</constructor-arg>
+                            	</bean>
+                        </property>
+           </bean>
+        </property>
+    </bean>
+	<bean id="onDeleteRatingNode" class="org.alfresco.repo.policy.registration.ClassPolicyRegistration" parent="policyRegistration">
+        <property name="policyName">
+            <value>{http://www.alfresco.org}onDeleteNode</value>
+        </property>
+        <property name="className">
+            <value>{http://www.someco.com/model/ratings/1.0}rating</value>
+        </property>
+        <property name="behaviour">
+           <bean class="org.alfresco.repo.jscript.ScriptBehaviour" parent="scriptBehaviour">
+                        <property name="location">
+                                <bean class="org.alfresco.repo.jscript.ClasspathScriptLocation">
+                                <constructor-arg>
+	                                <value>alfresco/module/${project.artifactId}/scripts/onDeleteRating.js</value>
+								</constructor-arg>
+                            	</bean>
+                        </property>
+           </bean>
+        </property>
+    </bean>
+
+    -->
 
 </beans>
